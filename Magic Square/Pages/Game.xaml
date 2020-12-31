@@ -1,0 +1,158 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Magic_Square.Pages.Game"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot-->
+    <Grid x:Name="LayoutRoot" Background="white">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <!--Ziffernblock-->
+        <Grid x:Name="NumberRoot" Margin="0,540,0,0">
+            <Grid Name="GRZ1" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,0,0,0">
+                <Rectangle Name="RTZ1" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_1"/>
+                <TextBlock Name="TBZ1" Text="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_1" />
+            </Grid>
+
+            <Grid Name="GRZ2" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="162,0,0,0">
+                <Rectangle Name="RTZ2" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_2"/>
+                <TextBlock Name="TBZ2" Text="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_2"/>
+            </Grid>
+
+            <Grid Name="GRZ3" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,0,0,0">
+                <Rectangle Name="RTZ3" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_3"/>
+                <TextBlock Name="TBZ3" Text="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_3" />
+            </Grid>
+
+            <Grid Name="GRZ4" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,65,0,0">
+                <Rectangle Name="RTZ4" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_4"/>
+                <TextBlock Name="TBZ4" Text="4" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_4" />
+            </Grid>
+
+            <Grid Name="GRZ5" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="162,65,0,0">
+                <Rectangle Name="RTZ5" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_5"/>
+                <TextBlock Name="TBZ5" Text="5" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_5" />
+            </Grid>
+
+            <Grid Name="GRZ6" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,65,0,0">
+                <Rectangle Name="RTZ6" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_6"/>
+                <TextBlock Name="TBZ6" Text="6" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_6" />
+            </Grid>
+
+            <Grid Name="GRZ7" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,130,0,0">
+                <Rectangle Name="RTZ7" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_7"/>
+                <TextBlock Name="TBZ7" Text="7" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_7" />
+            </Grid>
+
+            <Grid Name="GRZ8" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="162,130,0,0">
+                <Rectangle Name="RTZ8" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_8"/>
+                <TextBlock Name="TBZ8" Text="8" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_8" />
+            </Grid>
+
+            <Grid Name="GRZ9" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,130,0,0">
+                <Rectangle Name="RTZ9" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_9"/>
+                <TextBlock Name="TBZ9" Text="9" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_9" />
+            </Grid>
+
+            <Grid Name="GRZXX" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="3,195,0,0">
+                <Rectangle Name="RTZXX" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_CLR"/>
+                <TextBlock Name="TBZXX" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_CLR" />
+            </Grid>
+
+            <Grid Name="GRZ0" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,195,0,0">
+                <Rectangle Name="RTZ0" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_0"/>
+                <TextBlock Name="TBZ0" Text="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" MouseLeftButtonDown="NUM_MouseLeftButtonDown_0" />
+            </Grid>
+
+            <Grid Name="GRZX" Width="156" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="321,195,0,0">
+                <Rectangle Name="RTZX" Fill="#FF1A82FF" Width="156" Height="60" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="5" RadiusY="15" MouseLeftButtonDown="NUM_MouseLeftButtonDown_DEL"/>
+                <Image Source="/Images/Back.png" Height="34" MouseLeftButtonDown="NUM_MouseLeftButtonDown_DEL" Margin="-6,13,6,13" />
+            </Grid>
+        </Grid>
+
+
+        
+        <!--Quadrate-->
+        <Grid x:Name="SquareRoot" Margin="0,55,0,0">
+            <TextBlock Name="COUNT" Text="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="200" Foreground="Black" Margin="0,80,0,0" FontFamily="Segoe WP Black" FontWeight="Bold" />
+            
+            <Grid Name="GR1" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0">
+                <Rectangle Name="RT1" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20" MouseLeftButtonDown="RT1_MouseLeftButtonDown_1"/>
+                <TextBlock Name="TB1" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" />
+            </Grid>
+
+            <Grid Name="GR2" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0">
+                <Rectangle Name="RT2" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20" MouseLeftButtonDown="RT2_MouseLeftButtonDown_2"/>
+                <TextBlock Name="TB2" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" />
+            </Grid>
+
+            <Grid Name="GR3" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RT3_MouseLeftButtonDown_3">
+                <Rectangle Name="RT3" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TB3" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White" />
+            </Grid>
+
+            <Grid Name="GR4" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RT4_MouseLeftButtonDown_4">
+                <Rectangle Name="RT4" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TB4" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <Grid Name="GR5" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RT5_MouseLeftButtonDown_5">
+                <Rectangle Name="RT5" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TB5" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <Grid Name="GR6" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RT6_MouseLeftButtonDown_6">
+                <Rectangle Name="RT6" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TB6" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <Grid Name="GR7" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RT7_MouseLeftButtonDown_7">
+                <Rectangle Name="RT7" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TB7" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <Grid Name="GR8" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RT8_MouseLeftButtonDown_8">
+                <Rectangle Name="RT8" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TB8" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <Grid Name="GR9" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RT9_MouseLeftButtonDown_9">
+                <Rectangle Name="RT9" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TB9" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+
+            <Grid Name="GRB" Width="200" Height="200" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-200,0,0,0" MouseLeftButtonDown="RTB_MouseLeftButtonDown_B">
+                <Rectangle Name="RTB" Fill="#FF1A82FF" Width="140" Height="140" HorizontalAlignment="Center" VerticalAlignment="Center" RadiusX="20" RadiusY="20"/>
+                <TextBlock Name="TBB" Text="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="38" FontWeight="Bold" Foreground="White"/>
+            </Grid>
+        </Grid>
+
+
+
+        <!--Punkte-->
+        <TextBlock Name="POINTS" Text="0" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30" Foreground="Black" Margin="0,24,40,0" />
+        <TextBlock Name="POINTS2" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="90" Foreground="#FFC9C9C9" Margin="0,24,40,0" FontWeight="Bold" Visibility="Collapsed" />
+        <TextBlock Name="TIME" Text="0" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="30" Foreground="Black" Margin="40,24,0,0" />
+        <TextBlock Name="TIME2" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="90" Foreground="#FFC9C9C9" Margin="40,24,0,0" FontWeight="Bold" Visibility="Collapsed"/>
+        <TextBlock Name="LEVEL" Text="Level 1" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="18" Foreground="Black" Margin="40,7,0,0" />
+        <TextBlock Name="HIGHSCORE" Text="" HorizontalAlignment="right" VerticalAlignment="Top" FontSize="18" Foreground="Black" Margin="0,7,40,0" />
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

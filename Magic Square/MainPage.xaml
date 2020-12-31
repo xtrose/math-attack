@@ -1,0 +1,103 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Magic_Square.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+
+
+        
+        <!--Game-->
+        <Grid Name="GamePanel" Margin="0,10,0,34">
+            
+            <Grid Name="GRB1" Width="300" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,0,0,0" >
+                <Rectangle Name="RTB1" Width="290" Height="290" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="Button1"/>
+                <Rectangle Name="RTB1W" Width="210" Height="210" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="Button1" Opacity="0.9"/>
+                <TextBlock Name="TBB11" Text="B1" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="50" Margin="0,-30,0,0" MouseLeftButtonUp="Button1" />
+                <TextBlock Name="TBB12" Text="" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"  FontSize="30" Margin="112,147,112,113" MouseLeftButtonUp="Button1" />
+            </Grid>
+
+            <Grid Name="GRB2" Width="200" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="295,-25,0,0" >
+                <Rectangle Name="RTB2" Width="140" Height="140" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="Button2"/>
+                <Rectangle Name="RTB2W" Width="104" Height="104" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="Button2" Opacity="0.9"/>
+                <TextBlock Name="TBB21" Text="B2" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="26" FontWeight="Bold" Margin="0,-30,0,0" MouseLeftButtonUp="Button2" />
+                <TextBlock Name="TBB22" Text="" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"  FontSize="20" Margin="0,20,0,0" MouseLeftButtonUp="Button2" />
+            </Grid>
+
+            <Grid Name="GRB3" Width="200" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="295,125,0,0" >
+                <Rectangle Name="RTB3" Width="140" Height="140" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="Button3"/>
+                <Rectangle Name="RTB3W" Width="96" Height="96" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="Button3" Opacity="0.9"/>
+                <TextBlock Name="TBB31" Text="B3" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="26" FontWeight="Bold" Margin="0,-30,0,0" MouseLeftButtonUp="Button3" />
+                <TextBlock Name="TBB32" Text="" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"  FontSize="20" Margin="0,20,0,0" MouseLeftButtonUp="Button3" />
+            </Grid>
+
+        </Grid>
+
+        
+
+        <!--Training und Settings-->
+        <Grid Name="TrainingPanel" Margin="0,295,0,34">
+            
+            <Grid Name="TR" Width="200" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-15,0,0,0" >
+                <Rectangle Name="RTTR" Width="140" Height="140" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="btnMagicSquare_training"/>
+                <Rectangle Name="RTTRW" Width="96" Height="96" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="btnMagicSquare_training" Opacity="0.9"/>
+                <TextBlock Name="TBTR" Text="Training" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="22" Margin="0,-53,0,0" MouseLeftButtonUp="btnMagicSquare_training" />
+                <TextBlock Name="TBTD" Text="100" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"  FontSize="20" Margin="0,0,0,0" MouseLeftButtonUp="btnMagicSquare_training" />
+                <TextBlock Name="TBTL" Text="100" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"  FontSize="20" Margin="0,50,0,0" MouseLeftButtonUp="btnMagicSquare_training" />
+            </Grid>
+
+            <Grid Name="TRS" Width="200" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="140,0,0,0" >
+                <Rectangle Name="RTTRS" Width="140" Height="140" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="btnTrainingSettings"/>
+                <Rectangle Name="RTTRSW" Width="90" Height="90" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="btnTrainingSettings" Opacity="0.9"/>
+                <TextBlock Name="TBTRS" Text="Training" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,-35,0,0" MouseLeftButtonUp="btnTrainingSettings" />
+                <TextBlock Name="TBTRS2" Text="Settings" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,20,0,0" MouseLeftButtonUp="btnTrainingSettings" />
+            </Grid>
+
+            <Grid Name="GRST" Width="200" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="295,0,0,0" >
+                <Rectangle Name="RTST" Width="140" Height="140" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="btnSettings"/>
+                <Rectangle Name="RTSTW" Width="100" Height="100" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="btnSettings" Opacity="0.9"/>
+                <TextBlock Name="TBST" Text="Settings" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="22" Margin="0,-10,0,0" MouseLeftButtonUp="btnSettings" />
+            </Grid>
+        </Grid>
+
+
+
+        <!--Sonstiges-->
+        <Grid Name="OtherPanel" Margin="0,480,0,0">
+
+            <Grid Name="GRBUY" Width="300" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="165,0,0,0" >
+                <Rectangle Name="RTBUY" Width="290" Height="290" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black"  MouseLeftButtonUp="btnBuy"/>
+                <Rectangle Name="RTBUYW" Width="200" Height="200" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="btnBuy" Opacity="0.9"/>
+                <TextBlock Name="TBBUY" Text="Buy" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="50" Margin="0,-25,0,0" MouseLeftButtonUp="btnBuy" />
+            </Grid>
+
+            <Grid Name="GRHT" Width="200" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-15,-25,0,0" >
+                <Rectangle Name="RTHT" Width="140" Height="140" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="btnHowTo"/>
+                <Rectangle Name="RTHTW" Width="88" Height="88" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="btnHowTo" Opacity="0.9"/>
+                <TextBlock Name="TBHT" Text="HowTo" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="24" FontWeight="Bold" Margin="0,-10,0,0" MouseLeftButtonUp="btnHowTo" />
+            </Grid>
+
+            <Grid Name="GRAB" Width="200" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="-15,125,0,0" >
+                <Rectangle Name="RTAB" Width="140" Height="140" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="20" RadiusY="20" Fill="Black" MouseLeftButtonUp="btnAbout"/>
+                <Rectangle Name="RTABW" Width="96" Height="96" VerticalAlignment="Center" HorizontalAlignment="Center" RadiusX="15" RadiusY="15" Fill="White" MouseLeftButtonUp="btnAbout" Opacity="0.9"/>
+                <TextBlock Name="TBAB" Text="About" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontSize="24" FontWeight="Bold" Margin="0,-10,0,0" MouseLeftButtonUp="btnAbout" />
+            </Grid>
+
+        </Grid>
+
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,18 @@
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Debug\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Debug\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Debug\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Debug\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Debug\Magic_Square_Debug_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\App.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Magic Square.g.resources
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Magic_Square.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Magic Square.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Pages\Game.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Pages\Settings.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Pages\TrainingSettings.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Pages\HowTo.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Debug\Pages\About.g.cs

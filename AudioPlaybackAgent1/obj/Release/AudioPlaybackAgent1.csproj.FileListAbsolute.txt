@@ -1,0 +1,8 @@
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\Bin\Release\AudioPlaybackAgent1.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\Bin\Release\AudioPlaybackAgent1.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\obj\Release\AudioPlaybackAgent1.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\obj\Release\AudioPlaybackAgent1.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\Bin\Release\Audio\Music1.mp3
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\Bin\Release\Audio\Music2.mp3
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\Bin\Release\Audio\Music3.mp3
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\AudioPlaybackAgent1\Bin\Release\Audio\Music4.mp3

@@ -1,0 +1,63 @@
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic_Square_Release_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\App.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\About.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\Game.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\HowTo.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\Settings.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\TrainingSettings.g.cs
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.g.resources
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic_Square.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows 7 Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic_Square_Release_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\About.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\Game.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\HowTo.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\Settings.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\TrainingSettings.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic_Square.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Magic Square\Projekt Ordner\Magic Square\Magic Square\obj\Release\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Magic_Square_Release_AnyCPU.xap
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\About.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\Game.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\HowTo.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\Settings.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Pages\TrainingSettings.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic_Square.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\AudioPlaybackAgent1.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\AudioPlaybackAgent1.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\obj\Release\Magic Square.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Audio\Music1.mp3
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Audio\Music2.mp3
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Audio\Music3.mp3
+D:\Eigene Dateien\Projekte\Windows Phone\Math Attack\Projekt Ordner\Magic Square\Magic Square\Bin\Release\Audio\Music4.mp3
